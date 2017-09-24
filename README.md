@@ -7,7 +7,7 @@ The framework make the game developpement easy, fast and robust.
 It's entierly writed in Ruby for Ruby !
 
 # Cool ! But how I use it ?
-How to use it ? No more simple, Just go on Tutorials tab ! 
+How to use it ? No more simple, Just go on https://niobean-generation.000webhostapp.com/tutorials.html#createWindow -> Tutorials ! 
 You l'ill discover all about the game library : 
 
 The basics :
