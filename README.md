@@ -23,4 +23,4 @@ And the API :
 Briefly, you l'ill discover all you need to make a powerful game using the Ruby programming language.
 
 # Version
-Currently, NeoGame is in version 0.1.0 (24 / 09 / 2017)
+Currently, NeoGame is in version 0.1.0 -> Early alpha #(24 / 09 / 2017)
