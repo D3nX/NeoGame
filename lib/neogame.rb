@@ -65,8 +65,8 @@ module Neogame
 			KB_NUMPAD_8 = Gosu::KB_NUMPAD_8
 			KB_NUMPAD_9 = Gosu::KB_NUMPAD_9
 			# Mouse
-			MS_LEFT = Gosu::KB_LEFT
-			MS_RIGHT = Gosu::KB_RIGHT
+			MS_LEFT = Gosu::MS_LEFT
+			MS_RIGHT = Gosu::MS_RIGHT
 			MS_MIDDLE = Gosu::MS_MIDDLE
 			MS_WHEEL_UP = Gosu::MS_WHEEL_UP
 			MS_WHEEL_DOWN = Gosu::MS_WHEEL_DOWN
