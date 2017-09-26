@@ -102,13 +102,6 @@ module Neogame
 						raise "NeoGame [ERROR]: This is not a shape."
 					end
 
-					points = [
-										 [rectangle.x, rectangle.y],
-										 [rectangle.x + rectangle.width, rectangle.y],
-										 [rectangle.x + rectangle.width, rectangle.y + rectangle.height],
-										 [rectangle.x, rectangle.y + rectangle.height]
-									 ]
-
 					if (@x > (rectangle.x + rectangle.width)) || ((@x + @width) < rectangle.x)
 						return false
 					end
