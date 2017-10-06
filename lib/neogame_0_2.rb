@@ -187,8 +187,8 @@ module Neogame
 
 				def draw
 					@points.each do |points|
-						x = points.a
-						y = points.b
+						x = @x + points.a
+						y = @y + points.b
 						Gosu.draw_line(x,y, Gosu::Color::WHITE, x+1, y + 1, Gosu::Color::WHITE, 0)
 					end
 				end
