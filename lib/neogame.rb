@@ -1,8 +1,10 @@
+
 require 'gosu'
 
 # NeoGame
 # The next gen Ruby game framework
 # By D3nX, ©2017
+# Version pre-alpha 0.1
 module Neogame
 
 	module System
