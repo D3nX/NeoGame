@@ -36,3 +36,4 @@ Changelog :
 - Better flexibility (for Sprite and SpriteSheet)
 - Sprite and SpriteSheet getPixel method return a Gosu::Color instance instead of a board
 - Added circle shape, but not collision with yet...
+- Refactored a bit the code
