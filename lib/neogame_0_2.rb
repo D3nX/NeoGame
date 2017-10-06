@@ -459,8 +459,8 @@ module Neogame
 
 			def getPixel(x, y, frame = @nowAnim)
 
-				width = @img.width
-				height = @img.height
+				width = @anim[frame].width
+				height = @anim[frame].height
 
 				@blob ||= @anim[frame].to_blob
 				if x < 0 or x >= width or y < 0 or y >= height
