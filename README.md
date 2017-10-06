@@ -32,6 +32,6 @@ Changelog :
 - Fixed square collision bug
 - Added Audio class (for music and sound)
 - Fixed bugs about Sprite and SpriteSheet class
-- Sprite is not extended anymore from Gosu::Image, but it has his own image
+- Sprite class is not extended anymore from Gosu::Image, but it has his own image
 - Better flexibility (for Sprite and SpriteSheet)
 - Sprite and SpriteSheet getPixel method return a Gosu::Color instance instead of a board
