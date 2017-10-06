@@ -24,4 +24,13 @@ Briefly, you l'ill discover all you need to make a powerful game using the Ruby 
 
 # Version
 24 / 09 / 2017 :
-Currently, NeoGame is in version 0.1.0 -> Early alpha
+Currently, NeoGame is in version 0.1 -> Early alpha
+
+06 / 10 / 2017 :
+NeoGame is in version 0.2 -> Early Alpha
+Changelog :
+- Fixed square collision bug
+- Added Audio class (for music and sound)
+- Fixed bugs about Sprite and SpriteSheet class
+- Sprite is not extended anymore from Gosu::Image, but it has his own image
+- Better flexibility (for Sprite and SpriteSheet)
