@@ -603,7 +603,7 @@ module Neogame
 
 			def play(looping = false, volume = 1.0, speed = 1.0, panning = 1.0)
 
-				raise "NeoGame [ERROR]: The media is already playing." if @sampleInstance != nil
+				raise "NeoGame [ERROR]: The media is already playing." if @sampleInstance != nil && isPlaying?()
 
 				@looping = looping
 				@volume = volume
