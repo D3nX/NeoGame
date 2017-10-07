@@ -312,6 +312,7 @@ module Neogame
 			attr_accessor :angle, :scaleX, :scaleY
 			attr_accessor :centerX, :centerY
 			attr_accessor :isMirrorX, :isMirrorY
+			attr_aceessor :color
 
 			def initialize(path)
 
@@ -393,6 +394,7 @@ module Neogame
 			attr_accessor :angle, :scaleX, :scaleY
 			attr_accessor :centerX, :centerY
 			attr_accessor :isMirrorX, :isMirrorY
+			attr_accessor :color
 
 			def initialize(path, width, height)
 
