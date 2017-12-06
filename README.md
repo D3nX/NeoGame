@@ -5,6 +5,8 @@ A Ruby game Framework - based on Gosu<br />
 NeoGame is a powerful Ruby game framework built on Gosu multimedia library. <br />
 The framework make the game developpement easy, fast and robust. <br />
 It's entierly writed in Ruby for Ruby ! <br />
+<br />Pong sample :<br />
+![alt text](https://github.com/D3nX/NeoGame/blob/master/pong_screenshot.png)
 
 # Cool ! But how I use it ?
 How to use it ? No more simple, Just go on https://niobean-generation.000webhostapp.com/tutorials.html -> Tutorials ! <br />
