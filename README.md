@@ -38,3 +38,9 @@ Changelog :
 - Added circle shape, but not collision with yet...
 - You can change the sprite color using the color attribute
 - Refactored a bit the code
+
+06 / 12 / 2016
+Neogame is in version 0.2.1 -> Early alpha<br />
+NOTE: This version is a minor update<br />
+Changelog :
+- Added getWidth and getHeight method for Text class
