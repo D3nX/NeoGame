@@ -198,7 +198,7 @@ module Neogame
 					@radius = radius
 					@points = []
 
-					for i in 0...(360 * (radius / 10))
+					for i in 0...(2 * 3.14 * radius)
 
 						lengthX = Math.cos(i * 3.14 / 180) * radius;
 						lengthY = Math.sin(i * 3.14 / 180) * radius;
