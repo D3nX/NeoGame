@@ -29,7 +29,7 @@ Briefly, you l'ill discover all you need to make a powerful game using the Ruby 
 For creating a sample window in example, NeoGame look like this :
 
 ```ruby
-# For neogame 0.3
+# Neogame 0.3 - Sample Window
 
 require "./neogame.rb" # We import Neogame
 
@@ -42,7 +42,7 @@ $window = nil
 class Game < Window
 
 	def initialize
-		super Settings.new(640, 480, false, "Game states example") # We send the properties in order to create the window
+		super Settings.new(640, 480, false, "Sample window") # We send the properties in order to create the window
 		$window = self # Define the window as self
 	end
 
