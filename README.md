@@ -60,10 +60,10 @@ Game.new.start
 ```
 
 # Changelogs
-24 / 09 / 2017 :
+## 24 / 09 / 2017 :
 Currently, NeoGame is in version 0.1 -> Early alpha
 
-06 / 10 / 2017 :
+## 06 / 10 / 2017 :
 NeoGame is in version 0.2 -> Early Alpha<br />
 Changelog :
 - Fixed square collision bug
@@ -76,13 +76,13 @@ Changelog :
 - You can change the sprite color using the color attribute
 - Refactored a bit the code
 
-06 / 12 / 2017
+## 06 / 12 / 2017
 Neogame is in version 0.2.1 -> Early alpha<br />
 NOTE: This version is a minor update<br />
 Changelog :
 - Added getWidth and getHeight method for Text class
 
-16 / 01 / 2018
+## 16 / 01 / 2018
 Neogame is in version 0.3 -> Early alpha<br />
 NOTE: This version is a MAJOR update<br />
 Changelog :
