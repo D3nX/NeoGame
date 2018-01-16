@@ -1,4 +1,6 @@
-require "./lib/neogame.rb" # Import the library
+# Compatible with NeoGame 0.2
+
+require "./neogame.rb" # Import the library
 
 # Include all library
 include Neogame
