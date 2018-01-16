@@ -41,8 +41,28 @@ Changelog :
 - You can change the sprite color using the color attribute
 - Refactored a bit the code
 
-06 / 12 / 2016
+06 / 12 / 2017
 Neogame is in version 0.2.1 -> Early alpha<br />
 NOTE: This version is a minor update<br />
 Changelog :
 - Added getWidth and getHeight method for Text class
+
+16 / 01 / 2018
+Neogame is in version 0.3 -> Early alpha<br />
+NOTE: This version is a MAJOR update<br />
+Changelog :
+- Converted all the library to ruby convention
+- Fixed Sprite class bugs
+- Fixed SpriteSheet class bugs
+- Fixed Media class bugs
+- Added structure "Position"
+- Added Input class
+  - Added input methods for when key / mouse is down / pressed / released
+- Deleted every module except Shapes and Neogame
+- Added collision between rectangle and circle and between circle and circle
+- Sprite and Spritesheet attributes :anim_time has moved to :frame_time
+- Camera class has now render, scale, rotate and record method
+- Camera class has now a render order attributes for render method (for tell to Neogame what to do in order : scale ?, translate ?, ...)
+- Added StateManager class for manage game state
+- Added GameState class for use with state manager
+- Added some examples
