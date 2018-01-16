@@ -24,7 +24,42 @@ And the API :
 
 Briefly, you l'ill discover all you need to make a powerful game using the Ruby programming language.
 
-# Version
+# What look like NeoGame ?
+
+For creating a sample window in example, NeoGame look like this :
+
+```ruby
+# For neogame 0.3
+
+require "./neogame.rb" # We import Neogame
+
+include Neogame # We include it
+
+# We define a global variable "$window" to access the window attributes
+$window = nil
+
+# Now, we create the window
+class Game < Window
+
+	def initialize
+		super Settings.new(640, 480, false, "Game states example") # We send the properties in order to create the window
+		$window = self # Define the window as self
+	end
+
+	def update
+		# Game logic here
+	end
+
+	def draw
+		# Render everything here
+	end
+
+end
+
+Game.new.start
+```
+
+# Changelogs
 24 / 09 / 2017 :
 Currently, NeoGame is in version 0.1 -> Early alpha
 
