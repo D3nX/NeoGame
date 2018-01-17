@@ -95,7 +95,7 @@ Changelog :
   - Added input methods for when key / mouse is down / pressed / released
 - Deleted every module except Shapes and Neogame
 - Added collision between rectangle and circle and between circle and circle
-- Sprite and Spritesheet attributes :anim_time has moved to :frame_time
+- Spritesheet attribute :anim_time has moved to :frame_time
 - Camera class has now render, scale, rotate and record method
 - Camera class has now a render order attributes for render method (for tell to Neogame what to do in order : scale ?, translate ?, ...)
 - Added StateManager class for manage game state
