@@ -71,7 +71,7 @@ Changelog :
 - Fixed bugs about Sprite and SpriteSheet class
 - Sprite class is not extended anymore from Gosu::Image, but it has his own image
 - Better flexibility (for Sprite and SpriteSheet)
-- Sprite and SpriteSheet getPixel method return a Gosu::Color instance instead of a board
+- Sprite and SpriteSheet getPixel method return a Gosu::Color instance instead of an array
 - Added circle shape, but not collision with yet...
 - You can change the sprite color using the color attribute
 - Refactored a bit the code
