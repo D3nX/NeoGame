@@ -2,8 +2,8 @@ require 'gosu'
 
 # NeoGame
 # The next gen Ruby game framework
-# By D3n_x, ©2017
-# Version pre-alpha 0.2.1
+# By D3nX, ©2018
+# Version pre-alpha 0.3
 module Neogame
 
 	Vector2 = Struct.new(:a, :b)
