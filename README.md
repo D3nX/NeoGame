@@ -97,7 +97,7 @@ Changelog :
 - Added collision between rectangle and circle and between circle and circle
 - Spritesheet attribute :anim_time has moved to :frame_time
 - Camera class has now render, scale, rotate and record method
-- Camera class has now a render order attributes for render method (for tell to Neogame what to do in order : scale ?, translate ?, ...)
+- Camera class has now a ":render_order" attribute (who is an array) for render method (for tell to Neogame what to do in order : scale ?, translate ?, ...)
 - Added StateManager class for manage game state
 - Added GameState class for use with state manager
 - Added "options = {}" argument for sprite and spritesheet. These options are the same in Gosu when you create an image.
