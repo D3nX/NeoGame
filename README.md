@@ -9,8 +9,8 @@ It's entierly writed in Ruby for Ruby ! <br />
 ![alt text](https://github.com/D3nX/NeoGame/blob/master/pong_screenshot.png)
 
 # Cool ! But how I use it ?
-How to use it ? No more simple, Just go on https://niobean-generation.000webhostapp.com/tutorials.html -> Tutorials ! <br />
-Or take a shot in the wiki section (in progress).
+How to use it ? No more simple, just take a shot in the wiki section (in progress).
+(You can also check the website : https://niobean-generation.000webhostapp.com/tutorials.html, though it is outdated)
 You l'ill discover all about the game library : <br />
 
 The basics :
