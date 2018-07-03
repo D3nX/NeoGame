@@ -102,3 +102,23 @@ Changelog :
 - Added GameState class for use with state manager
 - Added "options = {}" argument for sprite and spritesheet. These options are the same in Gosu when you create an image.
 - Added some examples
+
+## 03 / 07 / 2018
+Neogame is in version 0.4 -> Early alpha<br />
+NOTE: This version is a MAJOR update<br />
+Changelog :
+- Added path variable to Sprite & SpriteSheet class
+- Added an ObjectsManager class
+- Modified a bit the code of the "StateManager"
+- "GameState" class name changed to "State"
+- Added GUI::Button class
+- Added GUI::Panel class
+- Added GUI::ProgressBar class
+- Text class 'get_width' and 'get_height' method are now 'width' & 'height'
+- Added 'size' and 'position' getter & setter (used with Vector2) in GUI::Panel class
+- For Input::mouse_down is now a static function
+- For every movable object, added a "position" and "position=" method / accessor
+- Now read image pixel is way faster
+- "Position" struct deleted
+- Neogame module now include all Gosu methods
+- Added "resize" method to the window class
