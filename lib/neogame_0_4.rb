@@ -76,7 +76,7 @@ module Neogame
 		end
 
 		# Return if any key is down
-		def key_down?(key)
+		def self.key_down?(key)
 
 			if key == MS_LEFT or key == MS_RIGHT or key == MS_MIDDLE or key == MS_WHEEL_UP or key == MS_WHEEL_DOWN
 				raise "NeoGame [ERROR]: Waiting for a keyboard input, not mouse input."
@@ -130,7 +130,7 @@ module Neogame
 
 		end
 
-		def mouse_down?(button)
+		def self.mouse_down?(button)
 
 			if button == MS_LEFT or button == MS_RIGHT or button == MS_MIDDLE or button == MS_WHEEL_UP or button == MS_WHEEL_DOWN
 				return true if Gosu::button_down?(button)
@@ -780,7 +780,7 @@ module Neogame
 				end
 			end
 
-			@font = Gosu::Font.new(size)
+			@font = Gosu::Font.new(size, :name => font_path)
 			@color = Gosu::Color::WHITE
 
 			@scale_x = 1.0
@@ -805,7 +805,7 @@ module Neogame
 		end
 
 		def width(text = @text, scale_x = @scale_x)
-			return @font.font_width(text, scale_x)
+			return @font.text_width(text, scale_x)
 		end
 
 		def height
@@ -1286,17 +1286,17 @@ module Neogame
 
 				if @text != ""
 					if @text != nil
-						@text.draw(@text,
-						@x + (@width - @text.width(@text))/2,
-						@y + (@height - @text.height) / 2,
+						DEFAULT_TEXT.draw(@text,
+						@x + (@width - DEFAULT_TEXT.width(@text))/2,
+						@y + (@height - DEFAULT_TEXT.height) / 2,
 						@z,
 						1.0,
 						1.0,
 						Color::YELLOW)
 					else
-						Neogame.default_text.draw(@text,
-							@x + (@width - Neogame.default_text.width(@text))/2,
-							@y + (@height - Neogame.default_text.height) / 2,
+						DEFAULT_TEXT.draw(@text,
+							@x + (@width - DEFAULT_TEXT.width(@text))/2,
+							@y + (@height - DEFAULT_TEXT.height) / 2,
 							@z,
 							1.0,
 							1.0,
