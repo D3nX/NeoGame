@@ -56,7 +56,7 @@ class Game < Window
 
 end
 
-Game.new.start
+Game.new.run
 ```
 
 # Changelogs
@@ -122,3 +122,4 @@ Changelog :
 - "Position" struct deleted
 - Neogame module now include all Gosu methods
 - Added "resize" method to the window class
+- Use "run" method instead of "start" to launch a new window
