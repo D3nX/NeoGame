@@ -29,9 +29,9 @@ Briefly, you l'ill discover all you need to make a powerful game using the Ruby 
 For creating a sample window in example, NeoGame look like this :
 
 ```ruby
-# Neogame 0.3 - Sample Window
+# Neogame 0.4 - Sample Window
 
-require "./neogame.rb" # We import Neogame
+require "neogame" # We import Neogame
 
 include Neogame # We include it
 
@@ -58,6 +58,12 @@ end
 
 Game.new.run
 ```
+
+# How to install it ?
+
+Just type that in your terminal :<br />
+```gem install Neogame```
+<br/>Now You're ready to go !<br />
 
 # Changelogs
 ## 24 / 09 / 2017 :
