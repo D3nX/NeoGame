@@ -10,6 +10,7 @@ It's entierly writed in Ruby for Ruby ! <br />
 
 # Cool ! But how I use it ?
 How to use it ? No more simple, Just go on https://niobean-generation.000webhostapp.com/tutorials.html -> Tutorials ! <br />
+Or take a shot in the wiki section (in progress).
 You l'ill discover all about the game library : <br />
 
 The basics :
