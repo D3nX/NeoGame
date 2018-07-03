@@ -35,15 +35,11 @@ require "neogame" # We import Neogame
 
 include Neogame # We include it
 
-# We define a global variable "$window" to access the window attributes
-$window = nil
-
 # Now, we create the window
 class Game < Window
 
 	def initialize
 		super Settings.new(640, 480, false, "Sample window") # We send the properties in order to create the window
-		$window = self # Define the window as self
 	end
 
 	def update
